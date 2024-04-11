@@ -1,0 +1,36 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.desktop-nav {
+    display: flex;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1rem;
+  font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+
+
+}
+
+p {
+    color: rgb(85, 85, 85);
+}
+
+a, .btn {
+    transition: all 300ms ease;
+}
