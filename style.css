@@ -10,6 +10,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    background: #f9dd06;
 }
 
 html {
@@ -17,7 +18,8 @@ html {
 }
 
 p {
-    color: rgb(85, 85, 85)
+    color: rgb(85, 85, 85);
+    font-size: 1.5rem;
 }
 
 /* TRANSITION */
@@ -225,8 +227,8 @@ section {
 
 .icon {
     cursor: pointer;
-    height: 2rem;
-    margin-top: 1.5rem;
+    height: 3rem;
+    margin-top: 0.2rem;
 }
 
 /* BUTTONS */
@@ -235,6 +237,8 @@ section {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    margin: 0 0 10px 0;
+
 }
 
 .btn {
@@ -308,6 +312,12 @@ section {
     position: absolute;
     right: 5rem;
     bottom: 2.5rem;
+}
+
+.top {
+    position: absolute;
+    right: 5rem;
+    bottom: 5rem;
 }
 
 .details-container {
@@ -445,9 +455,9 @@ h3 {
     height: 2rem;
 }
 
-.email-icon {
-    height: 2.5rem;
-}
+/* .email-icon {
+    height: 2rem;
+} */
 
 /* FOOTER */
 
