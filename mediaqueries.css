@@ -31,6 +31,9 @@
      .arrow {
          display: none;
      }
+     .top {
+        display: none;
+     }
 
      section,
      .section-container {
@@ -82,9 +85,14 @@
      .about-containers,
      .contact-info-upper-container,
      .btn-container {
-
+        
          flex-wrap: wrap;
-         justify-content: space-between;
+         justify-content: center;
+         display: flexbox;
+     }
+
+     .btn {
+        margin: 4px;
      }
 
      .contact-info-container {
